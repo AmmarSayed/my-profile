@@ -396,14 +396,14 @@ nav {
   font-size: 1.25rem;
 }
 
-.about-me__skills {
+.skills {
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.about-me__skills li {
+.skills li {
   padding: 0.3rem 0.75rem;
   background: rgba(153, 153, 153, 0.2);
   border-radius: 5px;
@@ -441,6 +441,10 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.card__stack {
+  justify-content: center;
 }
 
 @media screen and (min-width: 776px) {
