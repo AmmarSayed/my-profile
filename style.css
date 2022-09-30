@@ -352,7 +352,7 @@ nav {
   place-content: center;
   justify-items: center;
   height: 100vh;
-  background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8));
+  background: var(--gray-200);
 }
 
 .hero p {
@@ -380,6 +380,7 @@ nav {
 /* About Me */
 #about {
   height: 100vh;
+  background: var(--grey-100);
 }
 
 #about > p {
